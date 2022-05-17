@@ -9,6 +9,6 @@ class ModelTesting(TestCase):
         self.blog = Post.objects.create(title='django', author='django', slug='django')
 
     def test_post_model(self):
-        d = self.blog 
+        d = self.blog
         self.assertTrue(isinstance(d, Post))
         self.assertEqual(str(d), 'django')

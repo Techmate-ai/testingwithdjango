@@ -12,3 +12,5 @@ class ModelTesting(TestCase):
         d = self.blog
         self.assertTrue(isinstance(d, Post))
         self.assertEqual(str(d), 'django')
+
+        
